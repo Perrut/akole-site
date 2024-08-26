@@ -1,28 +1,3 @@
-:root {
-  font-size: 16px;
-  --bs-body-font-family: "Neue Haas Grotesk Display Pro";
-  --bs-body-font-weight: normal;
-  --bs-body-color: #94845f;
-}
-
-.bg-primary {
-  --bs-primary-rgb: 244, 236, 225;
-  --bs-bg-opacity: 1;
-}
-
-.bg-primary-subtle {
-  --bs-primary-bg-subtle: #f9f6ee;
-}
-
-.navbar {
-  --bs-navbar-active-color: #94845f;
-  --bs-navbar-color: #94845f;
-}
-
-.navbar-nav {
-  --bs-nav-link-font-weight: 300;
-}
-
-.navbar-nav .nav-link.active {
-  --bs-nav-link-font-weight: 400;
+.products-header {
+  margin-top: 5rem;
 }
