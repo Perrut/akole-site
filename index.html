@@ -57,13 +57,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Catálogo</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Quem somos</a>
+              <a class="nav-link" href="./about.html">Quem somos</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#contato">Contato</a>
@@ -77,11 +79,15 @@
     </nav>
     <main>
       <div class="container">
-        <section data-section-name="Produtos destaques">
-          <h1 class="products-header text-center mb-5">
-            Conheça nossos produtos
-          </h1>
-          <div
+        <section data-section-name="Slogan" class="slogan">
+          <img
+            src="img/Assinaturas-15.png"
+            class="d-block ms-auto me-auto img-fluid img-slogan"
+            height="auto"
+            style="max-height: 400px"
+            alt="#conteudo_dinamico"
+          />
+          <!-- <div
             id="highlightsCarousel"
             class="carousel slide"
             data-bs-ride="carousel"
@@ -180,9 +186,41 @@
               ></span>
               <span class="visually-hidden">Next</span>
             </button>
+          </div> -->
+        </section>
+        <section data-section-name="Diferenciais">
+          <div
+            id="carouselExampleAutoplaying"
+            class="carousel slide mt-5 mb-3"
+            data-bs-ride="carousel"
+            data-bs-pause="false"
+          >
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="4000">
+                <div class="d-block w-100" alt="...">
+                  <h2 class="text-center">Natural</h2>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <div class="d-block w-100" alt="...">
+                  <h2 class="text-center">Livre</h2>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="4000">
+                <div class="d-block w-100" alt="...">
+                  <h2 class="text-center">Vegano</h2>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
-        <section data-section-name="Contato" class="mb-4" id="contato">
+        <button
+          class="btn btn-primary d-block ms-auto me-auto botao-chamada-venda"
+          type="button"
+        >
+          Conheça nossos produtos
+        </button>
+        <!-- <section data-section-name="Contato" class="mb-4" id="contato">
           <h1 class="text-center mt-5 mb-5">Contato</h1>
           <form
             class="contact-form row g-3 ms-auto me-auto needs-validation"
@@ -241,8 +279,9 @@
               </button>
             </div>
           </form>
-        </section>
+        </section> -->
       </div>
+      <div class="vertical-gutter"></div>
       <footer class="bg-body-tertiary text-center text-lg-start">
         <!-- Copyright -->
         <div class="text-center p-3 bg-primary">

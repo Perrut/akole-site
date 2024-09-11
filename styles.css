@@ -1,7 +1,77 @@
-.products-header {
+/* .products-header {
+  margin-top: 5rem;
+} */
+
+.slogan,
+.historia-akole {
   margin-top: 5rem;
 }
 
 .contact-form {
   max-width: 43.33rem;
+}
+
+.historia p {
+  font-weight: 300;
+}
+
+.historia h1, .historia p {
+  color: #cc8c74;
+}
+
+.itens-compromissos img {
+  max-height: 250px;
+}
+
+.img-slogan {
+  animation: fadeinout 5s linear forwards;
+  animation-iteration-count: 2;
+}
+
+@keyframes fadeinout {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.2;
+  }
+}
+
+.botao-chamada-venda {
+  animation: pulse 4s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.vertical-gutter {
+  height: 0px;
+}
+
+@media (min-width: 576px) {
+  .itens-compromissos img {
+    max-height: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  .vertical-gutter {
+    height: 80px;
+  }
 }
