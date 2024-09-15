@@ -4,7 +4,8 @@
 
 .slogan,
 .historia-akole,
-.produtos-shampoo {
+.produtos-shampoo,
+.produtos-condicionador {
   margin-top: 5rem;
 }
 
@@ -12,11 +13,14 @@
   max-width: 43.33rem;
 }
 
-.historia p, .produtos-shampoo p {
+.historia p,
+.produtos-shampoo p,
+.produtos-condicionador p {
   font-weight: 300;
 }
 
-.historia h1, .historia p {
+.historia h1,
+.historia p {
   color: #cc8c74;
 }
 
@@ -55,7 +59,8 @@
   }
 }
 
-.produtos-shampoo h3 {
+.produtos-shampoo h3,
+.produtos-condicionador h3 {
   font-weight: 400;
 }
 
