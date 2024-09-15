@@ -1,6 +1,7 @@
-/* .products-header {
-  margin-top: 5rem;
-} */
+body {
+  min-height: 100vh;
+  position: relative;
+}
 
 .slogan,
 .historia-akole,
@@ -65,23 +66,13 @@
 }
 
 footer {
-  position: fixed;
+  position: absolute;
   width: 100%;
   bottom: 0;
-}
-
-.vertical-gutter {
-  height: 0px;
 }
 
 @media (min-width: 576px) {
   .itens-compromissos img {
     max-height: 500px;
-  }
-}
-
-@media (min-width: 768px) {
-  .vertical-gutter {
-    height: 80px;
   }
 }
