@@ -3,7 +3,8 @@
 } */
 
 .slogan,
-.historia-akole {
+.historia-akole,
+.produtos-shampoo {
   margin-top: 5rem;
 }
 
@@ -11,7 +12,7 @@
   max-width: 43.33rem;
 }
 
-.historia p {
+.historia p, .produtos-shampoo p {
   font-weight: 300;
 }
 
@@ -52,6 +53,10 @@
   100% {
     transform: scale(1);
   }
+}
+
+.produtos-shampoo h3 {
+  font-weight: 400;
 }
 
 footer {
