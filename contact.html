@@ -66,7 +66,7 @@
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle active"
+                class="nav-link dropdown-toggle"
                 href="#"
                 role="button"
                 data-bs-toggle="dropdown"
@@ -81,9 +81,7 @@
                   >
                 </li>
                 <li>
-                  <a
-                    class="dropdown-item active"
-                    href="./products-condicionador.html"
+                  <a class="dropdown-item" href="./products-condicionador.html"
                     >Condicionador</a
                   >
                 </li>
@@ -95,7 +93,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./contact.html">Contato</a>
+              <a class="nav-link active" href="./contact.html">Contato</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Blog</a>
@@ -106,68 +104,65 @@
     </nav>
     <main>
       <div class="container">
-        <section
-          data-section-name="produtos-condicionador"
-          class="produtos-condicionador"
-        >
-          <h1 class="text-center">Condicionador</h1>
-          <div class="row align-items-center">
-            <div class="produtos-thumbnail col-12 col-md-6">
-              <img
-                src="img/carrossel-01.jpg"
-                class="d-block ms-auto me-auto img-fluid"
-                height="auto"
-                alt="#conteudo_dinamico"
-              />
-            </div>
-            <div class="produtos-descricao col-12 col-md-6">
-              <h3>Teste descrição</h3>
-              <p>
-                Duis pulvinar imperdiet metus eu hendrerit. Praesent libero
-                odio, rhoncus sit amet erat at, hendrerit dapibus arcu. Aenean
-                et lorem.
-              </p>
-            </div>
-          </div>
-          <div class="row align-items-center mt-3">
+        <section data-section-name="Contato" class="contato mb-4" id="contato">
+          <h1 class="text-center mt-5 mb-5">Contato</h1>
+          <form
+            class="contact-form row g-3 ms-auto me-auto needs-validation"
+            novalidate
+          >
             <div class="col-12">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                euismod odio ac quam gravida tempus. Quisque tincidunt ipsum ac
-                risus scelerisque condimentum ut vitae justo. Proin sed
-                porttitor lectus. Mauris sollicitudin eu leo quis ultricies.
-                Maecenas varius fringilla dignissim. Sed dignissim urna sed
-                mollis pellentesque. Integer sit amet urna sit amet leo bibendum
-                dignissim eget sit amet nisi. Proin fringilla id ipsum venenatis
-                pellentesque. Aliquam convallis interdum purus non rutrum. Nulla
-                justo est, consequat eget mollis ut, posuere et ex. Cras eu
-                sollicitudin dolor, et vestibulum neque. Nam blandit, lacus non
-                semper ultrices, nunc nibh tempus nunc, et pretium neque.
-              </p>
+              <label for="validationCustom01" class="form-label">Nome</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                placeholder="Nome"
+                required
+              />
+              <div class="invalid-feedback">Campo obrigatório</div>
             </div>
-            <div class="col-12 mt-3">
-              <h3>Benefícios</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras
-                euismod odio ac quam gravida tempus. Quisque tincidunt ipsum ac
-                risus scelerisque condimentum ut vitae justo. Proin sed
-                porttitor lectus. Mauris sollicitudin eu leo quis ultricies.
-                Maecenas varius fringilla dignissim. Sed dignissim urna sed
-                mollis pellentesque. Integer sit amet urna sit amet leo bibendum
-                dignissim eget sit amet nisi. Proin fringilla id ipsum venenatis
-                pellentesque. Aliquam convallis interdum purus non rutrum. Nulla
-                justo est, consequat eget mollis ut, posuere et ex.
-              </p>
+            <div class="col-12">
+              <label for="validationCustom02" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="validationCustom02"
+                placeholder="seu@email.com"
+                required
+              />
+              <div class="invalid-feedback">Campo obrigatório</div>
             </div>
-          </div>
-          <div class="col-12 mt-3">
-            <p>
-              <strong>Veja também:</strong>
-              <a class="link" href="./how-to-use.html"
-                >Como utilizar nossos produtos</a
+            <div class="col-12">
+              <label for="validationCustom03" class="form-label"
+                >Telefone</label
               >
-            </p>
-          </div>
+              <input
+                type="number"
+                class="form-control"
+                id="validationCustom03"
+                placeholder="(XX) XXXXX-XXXX"
+                required
+              />
+              <div class="invalid-feedback">Campo obrigatório</div>
+            </div>
+            <div class="col-12">
+              <label for="validationCustom04" class="form-label"
+                >Mensagem</label
+              >
+              <textarea
+                rows="5"
+                class="form-control"
+                id="validationCustom04"
+                required
+              ></textarea>
+              <div class="invalid-feedback">Campo obrigatório</div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary d-block ms-auto" type="submit">
+                Enviar
+              </button>
+            </div>
+          </form>
         </section>
       </div>
     </main>
