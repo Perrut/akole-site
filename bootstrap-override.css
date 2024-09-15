@@ -99,3 +99,17 @@ h1 {
 footer * {
   font-weight: 300;
 }
+
+.dropdown-item {
+  font-weight: 300;
+}
+
+.dropdown-item.active,
+.dropdown-item:active {
+  background-color: transparent;
+  color: var(--bs-dropdown-link-color);
+}
+
+.dropdown-item.active {
+  font-weight: 400;
+}
