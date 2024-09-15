@@ -3,6 +3,8 @@
   --bs-body-font-family: "Neue Haas Grotesk Display Pro";
   --bs-body-font-weight: normal;
   --bs-body-color: #94845f;
+  --bs-link-color-rgb: #94845f;
+  --bs-link-hover-color-rgb: #94845f;
 }
 
 h1 {
