@@ -6,7 +6,8 @@ body {
 .slogan,
 .historia-akole,
 .produtos-shampoo,
-.produtos-condicionador {
+.produtos-condicionador,
+.como-usar-nossos-produtos {
   margin-top: 5rem;
 }
 
@@ -16,7 +17,8 @@ body {
 
 .historia p,
 .produtos-shampoo p,
-.produtos-condicionador p {
+.produtos-condicionador p,
+.como-usar-nossos-produtos p {
   font-weight: 300;
 }
 
@@ -61,8 +63,13 @@ body {
 }
 
 .produtos-shampoo h3,
-.produtos-condicionador h3 {
+.produtos-condicionador h3,
+.como-usar-nossos-produtos h3 {
   font-weight: 400;
+}
+
+.how-to-thumbnail {
+  max-width: 300px;
 }
 
 footer {

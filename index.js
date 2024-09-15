@@ -21,3 +21,10 @@
     );
   });
 })();
+
+(() => {
+  const footerFix = document.getElementById("footerFix");
+  const footer = document.getElementById("pageFooter");
+  const footerFixHeight = footer.offsetHeight + 24;
+  footerFix.style.minHeight = footerFixHeight + "px";
+})();
