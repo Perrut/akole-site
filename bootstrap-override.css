@@ -17,7 +17,8 @@ h1 {
 }
 
 .bg-primary-subtle {
-  --bs-primary-bg-subtle: #f9f6ee;
+  /* --bs-primary-bg-subtle: #f9f6ee; */
+  --bs-primary-bg-subtle: rgba(249, 246, 238, 0.5);
 }
 
 .navbar {

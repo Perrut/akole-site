@@ -20,7 +20,9 @@ body {
 .produtos-shampoo p,
 .produtos-condicionador p,
 .como-usar-nossos-produtos p {
-  font-weight: 300;
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
 }
 
 .historia h1,
