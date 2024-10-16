@@ -34,7 +34,7 @@ body {
   max-height: 250px;
 }
 
-.img-slogan {
+/* .img-slogan {
   animation: fadeinout 5s linear forwards;
   animation-iteration-count: 2;
 }
@@ -47,7 +47,7 @@ body {
   50% {
     opacity: 0.2;
   }
-}
+} */
 
 .botao-chamada-venda {
   animation: pulse 4s infinite;
