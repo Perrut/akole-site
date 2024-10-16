@@ -81,6 +81,18 @@ footer {
   bottom: 0;
 }
 
+.produto-oferta p {
+  margin-bottom: 0.3rem;
+}
+
+.produto-oferta .produto-descricao,
+.produto-oferta .produto-comprar {
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  font-size: 0.8rem;
+}
+
 @media (min-width: 576px) {
   .itens-compromissos img {
     max-height: 500px;
